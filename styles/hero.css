@@ -1,0 +1,84 @@
+.hero__wrapper{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hero__item--left {
+   width:30%;
+    display: flex;
+   align-items: center;
+}
+
+.profile-card{
+    background-color: var(--card-background-color);
+    border-radius: var(--card-radius);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50%; */
+    gap: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.profile__img{
+    width: 80%;
+    border-radius: var(--card-radius)
+}
+
+
+.hero__item--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.hero__item--right--top {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.img-choice__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.img-choice__images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+
+
+.hero__item--right--bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-info__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.social-media__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

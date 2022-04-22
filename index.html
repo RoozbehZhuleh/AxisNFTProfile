@@ -52,359 +52,123 @@
 
 <main>
     <!-- HERO -->
-
     <section id="hero">
         <div class="container">
             <div class="hero__wrapper">
                 <div class="hero__item--left">
-                    <img class="hero__image" src="./assets/product page/item1.jpg" alt="item-1">
+                    <div class="profile-card">
+                        <img class="profile__img" src="./assets/axies-images/04_Top Seller/avt-3.jpg" alt="profile avatar">
+                        <button class="btn btn__primary">Upload New Photo</button>
+                        <button class="btn btn__secondary">Delete</button>
+                    </div>
                 </div>
                 <div class="hero__item--right">
-                    <div class="item--right__title">
-                        <h2 class="item--right__title__text">"The Fantasy Flower Illustration"</h2>
-                    </div>
-                    <div class="item--right__more">
-                        <div class="likes-and-watches">
-                            <div class="watches">
-                                <i class="fa-solid fa-eye"></i>
-                                <p>225</p>
+                    <div class="hero__item--right--top">
+                        <div class="img-choice__wrapper">
+                            <div class="img-choice__title">
+                                <h3>Choose your cover image</h3>
                             </div>
-                            <div class="likes">
-                                <i class="fa-regular fa-heart"></i>
-                                <p class="likes--number">132</p>
-                            </div>
-                        </div>
-                        <div class="share-and-more">
-                            <div class="share">
-                                <i class="fa-solid fa-share-nodes"></i>
-                            </div>
-                            <div class="more">
-                                <i class="fa-solid fa-ellipsis"></i>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="item--right__avatars">
-                        <div class="owner">
-                            <img src="./assets/axies-images/04_Top Seller/avt-8.jpg" alt="avatar">
-                            <div class="owner__details">
-                                <p>Owned by</p>
-                                <h4>Ralph Galloway</h4>
-                            </div>
-                        </div>
-                        <div class="creator">
-                            <img src="./assets/axies-images/04_Top Seller/avt-2.jpg" alt="avatar">
-                            <div class="creator__details">
-                                <p>Created by</p>
-                                <h4>Freddie Carpenter</h4>
+                            <div class="img-choice__images">
+                                <div class="upload-file__btn">
+                                    <button class="btn btn__primary">Upload file</button>
+                                </div>
+                                <div class="first-img">
+                                    <img src="" alt="alt-avatar">
+                                </div>
+                                <div class="second-img">
+                                    <img src="" alt="alt-avatar">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="item__text">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, necessitatibus quisquam? Natus mollitia sapiente at consectetur. Sint accusantium distinctio ea culpa eveniet suscipit illum nam, quod omnis molestiae numquam magnam.</p>
-                    </div>
-                    <div class="bid__wrapper">
-                        <div class="current-bid">
-                            <h4>Current bid</h4>
-                            <div class="bid-price">
-                                <h3 class="bid-eth">4.89 ETH </h3>
-                                <h5> = $12.246</h5>
+                    
+                    <div class="hero__item--right--bottom">
+                        <div class="account-info__wrapper">
+                            <div class="account-info__title">
+                                <h3>Account info</h3>
                             </div>
-                        </div>
-                        <div class="countdown">
-                            <h4>Countdown</h4>
-                            <h3 class="countdown-timer">4 : 19 : 39 : 48</h3>
-                        </div>
-                    </div>
-                    <div class="bid-btn">
-                        <button class="btn btn__long">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                            <p> Place a bid</p>
-                        </button>
-                    </div>
 
-
-                    <!-- Hero Menu -->
-                    <div class="hero__menu__wrapper">
-                        <div class="hero__menu--history hero__menu__item">
-                            <a href="#" class="bid-history">Bid History</a>
-                        </div>
-                        <div class="hero__menu--info hero__menu__item">
-                            <a href="#" class="info">Info</a>
-                        </div>
-                        <div class="hero__menu--provenance hero__menu__item">
-                            <a href="#" class="provernance">Provenance</a>
-                        </div>
-                    </div>
-
-                    <div class="bid-history__wrapper">
-                        <div class="bidder--1 bidder">
-                            <div class="bidder--1__avatar bidder__avatar">
-                                 <div class="bidder--1__img bidder__img"><img src="./assets/axies-images/04_Top Seller/avt-7.jpg" alt="bidder--1" >
+                            <div class="display-name">
+                                <div class="display-name__title">
+                                    <h4>Display name</h4>
                                 </div>
-                                <div class="bidder--1__details__wrapper bidder__details__wrapper">
-                                    <div class="bidder--1__details bidder__details">
-                                        <h4 class="bidder--1__name bidder__name">Mason Woodward</h4>
-                                        <p class="bidder--1__status bidder__status"> placed a bid</p>
-                                    </div>
-                                    <div class="bidder--1__time bidder__time">
-                                        <p>8 hours ago</p>
-                                    </div>
+                                <div class="display-name__input">
+                                    <input type="text" placeholder="Enter new name">
                                 </div>
                             </div>
-                            <div class="bidder--1__price bidder__price">
-                                <div class="price-eth bidder--1__eth">
-                                    <h4>4.89 ETH</h4>
+
+                            <div class="custom-url">
+                                <div class="custom-url__title">
+                                    <h4>Custom URL</h4>
                                 </div>
-                                <div class="price-dollar bidder--1__dollar">
-                                    <p>= $12.146</p>
+                                <div class="custom-url__input">
+                                    <input type="text">
                                 </div>
                             </div>
+
+                            <div class="email">
+                                <div class="email__title">
+                                    <h4>Email</h4>
+                                </div>
+                                <div class="email__input">
+                                    <input type="text" placeholder="Enter new email">
+                                </div>
+                            </div>
+
+                            <div class="bio">
+                                <div class="bio__title">
+                                    <h4>Bio</h4>
+                                </div>
+                                <div class="bio__input">
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary">Update Profile</button>
                         </div>
 
+                        <div class="social-media__wrapper">
+                            <div class="social-media__title">
+                                <h3>Your Social Media</h3>
+                            </div>
+                            <div class="facebook__wrapper">
+                                <div class="facebook__title">
+                                    <h4>Facebook</h4>
+                                </div>
+                                <div class="facebook__input">
+                                    <input type="text" placeholder="Facebook username">
+                                </div>
+                                <div class="facebook__btn social__btn"><button><i class="fa-brands fa-facebook-f"></i>Connect to Facebook</button> </div>
+                            </div>
 
-                        <div class="bidder--2 bidder">
-                            <div class="bidder--2__avatar bidder__avatar">
-                                 <div class="bidder--2__img bidder__img"><img src="./assets/axies-images/04_Top Seller/avt-5.jpg" alt="bidder--2" >
+                            <div class="twitter__wrapper">
+                                <div class="twitter__title">
+                                    <h4>Twitter</h4>
                                 </div>
-                                <div class="bidder--2__details__wrapper bidder__details__wrapper">
-                                    <div class="bidder--2__details bidder__details">
-                                        <h4 class="bidder--2__name bidder__name">Ralph Macchio</h4>
-                                        <p class="bidder--2__status bidder__status"> bid accepted</p>
-                                    </div>
-                                    <div class="bidder--2__time bidder__time">
-                                        <p>03.11.21 at 3 PM</p>
-                                    </div>
+                                <div class="twitter__input">
+                                    <input type="text" placeholder="Twitter username">
                                 </div>
+                                <div class="twitter__btn social__btn"><button><i class="fa-brands fa-twitter"></i>Connect to Twitter</button> </div>
                             </div>
-                            <div class="bidder--2__price bidder__price">
-                                <div class="price-eth bidder--2__eth">
-                                    <h4>4.88 ETH</h4>
+
+                            <div class="discord__wrapper">
+                                <div class="discord__title">
+                                    <h4>Discord</h4>
                                 </div>
-                                <div class="price-dollar bidder--2__dollar">
-                                    <p>= $11.546</p>
+                                <div class="discord__input">
+                                    <input type="text" placeholder="Discord username">
                                 </div>
+                                <div class="discord__btn social__btn"><button><i class="fa-brands fa-discord"></i>Connect to Discord</button> </div>
                             </div>
+
                         </div>
-
-
-                        <div class="bidder--3 bidder">
-                            <div class="bidder--3__avatar bidder__avatar">
-                                 <div class="bidder--3__img bidder__img"><img src="./assets/axies-images/04_Top Seller/avt-3.jpg" alt="bidder--3" >
-                                </div>
-                                <div class="bidder--3__details__wrapper bidder__details__wrapper">
-                                    <div class="bidder--3__details bidder__details">
-                                        <h4 class="bidder--3__name bidder__name">William Zabca</h4>
-                                        <p class="bidder--3__status bidder__status"> placed a bid</p>
-                                    </div>
-                                    <div class="bidder--3__time bidder__time">
-                                        <p>22 hours ago</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bidder--3__price bidder__price">
-                                <div class="price-eth bidder--3__eth">
-                                    <h4>4.89 ETH</h4>
-                                </div>
-                                <div class="price-dollar bidder--3__dollar">
-                                    <p>= $12.146</p>
-                                </div>
-                            </div>
-                        </div>
-                        
                     </div>
                     
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!-- live auction -->
-
-    <section id="live-auctions">
-        <div class="container">
-            <div class="auctions__wrapper">
-                <div class="auctions__title__wrapper">
-                    <div class="auctions__title">
-                        <h2>Live Auctions</h2>
-                    </div>
-                    <div class="btn-explore">
-                        <button class="btn btn__primary">Explore</button>
-                    </div>
-                </div>
-    
-                <div class="auctions__items">
-                    <div class="auctions__item--1 auctions__item">
-                        <div class="item__wrapper--1">
-                            <a class="bid">
-                                <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
-                            </a>
-                            <div class="item__countdown--1 item__countdown">
-                                <i class="fa-solid fa-clock"> </i>
-                                <p> 2 : 13 : 45 : 12</p>
-                            </div>
-                        </div>
-                        <h5 class="auctions--1__title--text">"Hamlet Contemplates Yorick's...</h5>
-                        <div class="auctions__creator__wrapper">
-                            <div class="auctions__creator__img">
-                                <img class="auctions__creator--1__img creator__img" src="./assets/axies-images/04_Top Seller/avt-1.jpg" alt="avatar">
-                            </div>
-                            <div class="auctions__creator__text">
-                                <div class="auctions__creator__title">
-                                    <p>Creator</p>
-                                </div> 
-                                <div class="auctions__creator__name">
-                                    <p>Salvador Dali</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="bid-and-likes__wrapper">
-                            <div class="bid__price">
-                                <p class="bid__title">Current Bid</p>
-                                <div class="bid__price__wrapper">
-                                    <h4 class="item--1--eth price-eth">4.86 ETH</h4> <p class="item--1--dollar price-dollar"> = $11.346</p>
-                                </div>
-                                
-                            </div>
-                            <div class="auctions__likes">
-                                <i class="fa-solid fa-heart"></i>
-                                <p class="auctions--1--likes">429</p>
-                            </div>
-                        </div>
-                    </div> 
-    
-                    <div class="auctions__item--2 auctions__item">
-                        <div class="item__wrapper--2">
-                            <a class="bid">
-                                <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
-                            </a>
-                            <div class="item__countdown--2 item__countdown">
-                                <i class="fa-solid fa-clock"></i>
-                                <p>5 : 23 : 22 : 08</p>
-                            </div>
-                        </div>
-                        <h5>"Hamlet Contemplates Yorick's...</h5>
-                        <div class="auctions__creator__wrapper">
-                            <div class="auctions__creator__img">
-                                <img class="auctions__creator--1__img creator__img" src="./assets/axies-images/04_Top Seller/avt-3.jpg" alt="avatar">
-                            </div>
-                            <div class="auctions__creator__text">
-                                <div class="auctions__creator__title">
-                                    <p>Creator</p>
-                                </div> 
-                                <div class="auctions__creator__name">
-                                    <p>Hugh Grant</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="bid-and-likes__wrapper">
-                            <div class="bid__price">
-                                <p class="bid__title">Current Bid</p>
-                                <div class="bid__price__wrapper">
-                                    <h4 class="item--1--eth price-eth">4.89 ETH</h4> <p class="item--1--dollar price-dollar"> = $12.246</p>
-                                </div>
-                                
-                            </div>
-                            <div class="auctions__likes">
-                                <i class="fa-solid fa-heart"></i>
-                                <p class="auctions--1--likes">257</p>
-                            </div>
-                        </div>
-                    </div> 
-    
-                    <div class="auctions__item--3 auctions__item">
-                        <div class="item__wrapper--3">
-                            <a class="bid">
-                                <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
-                            </a>
-                            <div class="item__countdown--3 item__countdown">
-                                <i class="fa-solid fa-clock"></i>
-                                <p>12 : 21 : 02 : 57</p>
-                            </div>
-                        </div>
-                        <h5>"Hamlet Contemplates Yorick's...</h5>
-                        <div class="auctions__creator__wrapper">
-                            <div class="auctions__creator__img">
-                                <img class="auctions__creator--1__img creator__img" src="./assets/axies-images/04_Top Seller/avt-7.jpg" alt="avatar">
-                            </div>
-                            <div class="auctions__creator__text">
-                                <div class="auctions__creator__title">
-                                    <p>Creator</p>
-                                </div> 
-                                <div class="auctions__creator__name">
-                                    <p>Roderick Pope</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="bid-and-likes__wrapper">
-                            <div class="bid__price">
-                                <p class="bid__title">Current Bid</p>
-                                <div class="bid__price__wrapper">
-                                    <h4 class="item--1--eth price-eth">4.85 ETH</h4> <p class="item--1--dollar price-dollar"> = $11.159</p>
-                                </div>
-                                
-                            </div>
-                            <div class="auctions__likes">
-                                <i class="fa-solid fa-heart"></i>
-                                <p class="auctions--1--likes">257</p>
-                            </div>
-                        </div>
-                    </div> 
-    
-                    <div class="auctions__item--4 auctions__item ">
-                        <div class="item__wrapper--4">
-                            <a class="bid">
-                                <i class="fa-solid fa-tag"></i> <p>Place Bid</p>
-                            </a>
-                            <div class="item__countdown--4 item__countdown">
-                                <i class="fa-solid fa-clock"></i>
-                                <p>01 : 06 : 45 : 24</p>
-                            </div>
-                        </div>
-                        <h5>"Hamlet Contemplates Yorick's...</h5>
-                        <div class="auctions__creator__wrapper">
-                            <div class="auctions__creator__img">
-                                <img class="auctions__creator--1__img creator__img" src="./assets/axies-images/04_Top Seller/avt-6.jpg" alt="avatar">
-                            </div>
-                            <div class="auctions__creator__text">
-                                <div class="auctions__creator__title">
-                                    <p>Creator</p>
-                                </div> 
-                                <div class="auctions__creator__name">
-                                    <p>Willie Patton</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="bid-and-likes__wrapper">
-                            <div class="bid__price">
-                                <p class="bid__title">Current Bid</p>
-                                <div class="bid__price__wrapper">
-                                    <h4 class="item--1--eth price-eth">4.89 ETH</h4> <p class="item--1--dollar price-dollar"> = $12.246</p>
-                                </div>
-                                
-                            </div>
-                            <div class="auctions__likes">
-                                <i class="fa-solid fa-heart"></i>
-                                <p class="auctions--1--likes">257</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-                <div class="slider">
-                    <i class="fa-solid fa-circle-dot"></i>
-                    <i class="fa-solid fa-circle"></i>
-                    <i class="fa-solid fa-circle"></i>
-                    <i class="fa-solid fa-circle"></i>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+  
 </main>
 
 

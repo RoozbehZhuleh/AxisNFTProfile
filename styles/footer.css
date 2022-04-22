@@ -1,0 +1,126 @@
+footer {
+    background-color: var(--secondary-background-color);
+  }
+  
+  .footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0 0 0;
+  }
+  
+  .footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-around;
+    color: var(--font-accent-color);
+    max-width: 20rem;
+    margin: 2rem;
+  }
+  
+  .footer__logo img {
+    max-width: 15rem;
+    margin: 0rem 0 3rem 0;
+  }
+  
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: 3rem 5rem;
+  }
+  
+  .footer__links > * {
+    margin: 2rem 0;
+    color: var(--font-accent-color);
+  }
+  
+  .footer__links h4 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0 0 5rem;
+  }
+  
+  .subscribe h4 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .email {
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #email {
+    min-height: 5rem;
+    padding: 2.5rem 5rem 2.5rem 1rem;
+    background-color: var(--primary-color);
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 1rem 0 0 1rem;
+    color: #fff;
+  }
+  
+  .submit {
+    padding: 1.5rem 2rem 1.5rem 1.5rem;
+    border-radius: 0 1rem 1rem 0;
+    background-color: rgb(81, 66, 251);
+    color: #fff;
+    font-size: 3rem;
+    border: 1px solid var(--font-accent-color);
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.2s linear;
+  }
+  
+  .social > * {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0.3rem;
+    background-color: var(--font-accent-color);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.1s linear;
+  }
+  
+  @media (max-width: 90rem) {
+    .social {
+      display: flex;
+      flex-direction: column;
+      background-color: var(--accent-color);
+      padding: 1rem 0.3rem;
+      border-radius: 2.5rem;
+      position: fixed;
+      position: -webkit-fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1.5rem;
+    }
+  
+    .social > * {
+      background-color: var(--accent-color);
+    }
+  
+    .social > *:hover {
+      background-color: var(--primary-color);
+      border-radius: 100%;
+    }
+  }
+  

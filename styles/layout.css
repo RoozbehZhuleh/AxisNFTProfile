@@ -1,0 +1,367 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.dark-mode {
+  --primary-color: #170322;
+  --dark-color: #07050e;
+  --accent-color: rgb(110, 64, 219);
+  --navbar-btn-color: rgba(52, 52, 68);
+  --light-color: #f3f3f3;
+  --font-accent-color: #808080;
+  --card-background-color: rgb(76, 70, 87);
+  --secondary-background-color: rgb(49, 37, 71);
+  --light-font-color: #f3f3f3;
+  --login-primary-background-color: rgba(25, 20, 65%);
+  --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --font-xs:1.2rem;
+  --font-s: 1.5rem;
+  --font-m: 2rem;
+  --font-l: 3rem;
+  --font-xl: 4rem;
+  --font-xxl: 7rem; 
+  --avatar-size: 7rem;
+  --avatar-radius: 2rem;
+  --card-radius: 1.5rem;
+  --circle-radius: 4rem;
+}
+
+.light-mode {
+  --primary-color: #ececec;
+  --dark-color: #cacaca;
+  --accent-color: rgba(201, 20, 20, 0.384);
+  --navbar-btn-color: rgba(52, 52, 68);
+  --light-color: #575757;
+  --font-accent-color: #363636;
+  --card-background-color: rgba(251, 255, 0, 0.74);
+  --secondary-background-color: rgba(68, 20, 201, 0.384);
+  --light-font-color: #555555;
+  --login-primary-background-color: rgba(25, 20, 65%);
+  --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --font-xs:1.2rem;
+  --font-s: 1.5rem;
+  --font-m: 2rem;
+  --font-l: 3rem;
+  --font-xl: 4rem;
+  --font-xxl: 7rem; 
+  --avatar-size: 7rem;
+  --avatar-radius: 2rem;
+  --card-radius: 1.5rem;
+  --circle-radius: 4rem;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "montserrat", "Helvetica Neue", "Helvetica";
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.5rem;
+  background: linear-gradient(
+    90deg,
+    var(--dark-color) 0%,
+    var(--primary-color) 75%
+  );
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-color);
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 0 1rem;
+}
+
+.btn {
+  font-family: inherit;
+  text-overflow: none;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+btn {
+  font-family: inherit;
+  text-overflow: none;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  outline: 0;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.btn__primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: inset 0 0 0 0.1rem var(--accent-color);
+}
+
+.btn__secondary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  box-shadow: inset 0 0 0 0.1rem var(--font-accent-color);
+}
+
+.btn__long{
+  padding: 1rem ;
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  color: var(--font-primary-color);
+}
+
+.btn__long:hover{
+  background-color: var(--accent-color);
+}
+
+.btn__primary:hover {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+
+.btn__secondary:hover {
+  background-color: var(--font-accent-color);
+  color: var(--dark-color);
+}
+
+.secondary-text {
+  color: var(--font-accent-color);
+  font-family: inherit;
+}
+
+.btn-explore{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.likes {
+  color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1rem 1rem;
+  position: relative;
+  top: 0.5rem;
+  cursor: pointer;
+  background-color: var(--dark-color);
+  border-radius: 1rem;
+  max-width: 8rem;
+}
+
+.likes i {
+  color: red;
+  margin: 0 0.5rem 0 0;
+}
+
+@keyframes rabbit {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+}
+
+@keyframes plus--1 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes plus--2 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ellipse--1 {
+  10% {
+    transform: translateX(30rem) translateY(-60rem);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translateX(-80rem) translateY(-30rem);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.3;
+  }
+
+  75% {
+    transform: translateX(-10rem) translateY(-10rem);
+    opacity: 1;
+  }
+}
+
+@keyframes ellipse--2 {
+  10% {
+    transform: translateX(-30rem) translateY(-10rem);
+  }
+  25% {
+    transform: translateX(-60rem) translateY(-40rem);
+  }
+  50% {
+    transform: translateX(20rem) translateY(40rem);
+  }
+}
+
+@keyframes ellipse--3 {
+  10% {
+    transform: translateX(40rem) translateY(-50rem);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translateX(-20rem) translateY(-10rem);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.3;
+  }
+
+  75% {
+    transform: translateX(10rem) translateY(-10rem);
+    opacity: 1;
+  }
+}
+
+@keyframes ellipse--4 {
+  10% {
+    transform: translateX(30rem) translateY(0rem);
+    opacity: 0.5;
+  }
+  25% {
+    transform: translateX(-80rem) translateY(-30rem);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateX(-60rem) translateY(-50rem);
+    opacity: 0.4;
+  }
+
+  75% {
+    transform: translateX(-10rem) translateY(-10rem);
+    opacity: 1;
+  }
+}
+
+@keyframes planet {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes blob {
+  0% {
+    min-height: 50rem;
+  }
+  50% {
+    min-height: 60rem;
+  }
+  100% {
+    min-height: 50rem;
+  }
+}
+
+@keyframes star {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes monster {
+  0% {
+    transform: rotate(2deg) translateY(2rem);
+    z-index: -1;
+  }
+
+  50% {
+    transform: translateX(29rem) translateY(2rem);
+    z-index: -1;
+  }
+
+  55% {
+    transform: translateX(29rem) translateY(2rem) scaleX(-1);
+  }
+  98% {
+    transform: translateY(2rem) scaleX(-1);
+    z-index: -1;
+  }
+
+  100% {
+    transform: translateX(0) translateY(2rem) scaleX(1);
+  }
+}
+
+@keyframes monster2 {
+  0% {
+    transform: translateY(0);
+    z-index: -1;
+  }
+
+  50% {
+    transform: translateY(-30rem);
+    z-index: -1;
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(0rem);
+    z-index: -1;
+  }
+}

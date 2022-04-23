@@ -76,9 +76,9 @@
     align-items: center;
   }
   
-  .navbar__button--light,
   .navbar__button--light {
     border: none;
+    /* transition: all 0.2s linear; */
   }
   
   .navbar--modes > * {

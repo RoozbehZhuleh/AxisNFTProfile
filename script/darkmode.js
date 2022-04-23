@@ -1,3 +1,6 @@
+
+
+
 function setTheme(themeName){
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
@@ -16,6 +19,7 @@ function toggleTheme(){
 (function (){
     if (localStorage.getItem('theme') === 'dark-mode'){
         setTheme('dark-mode');
+        
     }
     else{setTheme('light-mode')}
 })();

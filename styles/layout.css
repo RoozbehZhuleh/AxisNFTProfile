@@ -20,6 +20,9 @@
   --light-font-color: #f3f3f3;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --card-first-color:#5ddcff;
+  --card-second-color:#3c67e3 43%;
+  --card-third-color:#4e00c2;
   --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-m: 2rem;
@@ -30,6 +33,8 @@
   --avatar-radius: 2rem;
   --card-radius: 1.5rem;
   --circle-radius: 4rem;
+  --card-height: 50vh;
+    --card-width: calc(var(--card-height) / 1.5);
 }
 
 .light-mode {
@@ -45,6 +50,9 @@
   --light-font-color: #555555;
   --login-primary-background-color: rgba(25, 20, 65%);
   --login-secondary-background-color: rgba(17, 17, 19, 50%);
+  --card-first-color:#5ddcff;
+  --card-second-color:#3c67e3 43%;
+  --card-third-color:#4e00c2;
   --font-xs:1.2rem;
   --font-s: 1.5rem;
   --font-m: 2rem;
@@ -55,6 +63,8 @@
   --avatar-radius: 1.5rem;
   --card-radius: 1.5rem;
   --circle-radius: 200%;
+  --card-height: 50vh;
+    --card-width: calc(var(--card-height) / 1.5);
 }
 
 html {

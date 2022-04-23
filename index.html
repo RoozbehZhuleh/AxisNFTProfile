@@ -30,7 +30,7 @@
                         <button class="btn btn__primary btn__wallet"><i class="fa-solid fa-wallet"></i><p>Wallet Connect</p></button>
                     </div>
                     <div class="navbar--modes">
-                        <img class="navbar__button--light btn__secondary btn" onclick="toggleTheme()" src="./assets/axies-images/01_header/sun.png" alt="Light Mode">
+                        <img id="theme__btn" class="navbar__button--light btn__secondary btn" onclick="toggleTheme()" src="./assets/axies-images/01_header/sun.png" alt="Light Mode">
                     </div>
                     <div class="rp-menu">
                         <i class="fa-solid fa-bars"></i>
@@ -56,7 +56,7 @@
         <div class="container">
             <div class="hero__wrapper">
                 <div class="hero__item--left">
-                    <div class="profile-card">
+                    <div class="card">
                         <img class="profile__img" src="./assets/axies-images/04_Top Seller/avt-3.jpg" alt="profile avatar">
                         <button class="btn btn__primary">Upload New Photo</button>
                         <button class="btn btn__secondary">Delete</button>
@@ -69,14 +69,20 @@
                                 <h3>Choose your cover image</h3>
                             </div>
                             <div class="img-choice__images">
-                                <div class="upload-file__btn">
+                                <!-- <div class="upload-file__btn banner-box">
                                     <button class="btn btn__primary">Upload file</button>
+                                </div> -->
+                                <div class="first-img banner-box">
+                                    <!-- <img class="first-banner banner" src="./assets/banners/banner1.jpg" alt="alt-avatar"> -->
                                 </div>
-                                <div class="first-img">
-                                    <img src="" alt="alt-avatar">
+                                <div class="second-img banner-box">
+                                    <!-- <img class="second-banner banner" src="./assets/banners/banner2.jpg" alt="alt-avatar"> -->
                                 </div>
-                                <div class="second-img">
-                                    <img src="" alt="alt-avatar">
+                                <div class="third-img banner-box">
+                                    <!-- <img class="third-banner banner" src="./assets/banners/banner3.jpg" alt="alt-avatar"> -->
+                                </div>
+                                <div class="fourth-img banner-box">
+                                    <!-- <img class="fourth-banner banner" src="./assets/banners/banner4.jpg" alt="alt-avatar"> -->
                                 </div>
                             </div>
                         </div>
@@ -96,7 +102,7 @@
                                     <input type="text" placeholder="Enter new name">
                                 </div>
                             </div>
-
+                            
                             <div class="custom-url">
                                 <div class="custom-url__title">
                                     <h4>Custom URL</h4>
@@ -106,7 +112,7 @@
                                 </div>
                             </div>
 
-                            <div class="email">
+                            <div class="hero__email">
                                 <div class="email__title">
                                     <h4>Email</h4>
                                 </div>
@@ -115,7 +121,7 @@
                                 </div>
                             </div>
 
-                            <div class="bio">
+                            <div class="hero__bio">
                                 <div class="bio__title">
                                     <h4>Bio</h4>
                                 </div>
@@ -221,5 +227,7 @@
         </div>
     </section>
 </footer>
+
+
 </body>
 </html>

@@ -31,6 +31,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    transition: all 0.2s linear;
   }
   
   .navbar__menu--item i {
@@ -41,6 +42,7 @@
 
   .navbar__menu--item:hover i{
     transform: rotate(180deg);
+    background: linear-gradient(90deg, var(--accent-color), var(--card-second-color), var(--card-background-color));
   }
   
   .navbar__search {
@@ -140,3 +142,28 @@
   margin: 0 1rem;}
   .details__link--3{color:var(--font-primary-color);
     margin: 0 1rem;}
+
+
+
+  @keyframes bannerMovement {
+    0%{
+      background-position:center;
+    }
+
+    25%{
+      background-position:center left;
+    }
+
+    50%{
+      background-position:center;
+    }
+
+    75%{
+      background-position:right center;
+    }
+
+    100%{
+      background-position:center
+    }
+  }
+

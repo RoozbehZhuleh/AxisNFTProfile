@@ -17,6 +17,7 @@
 .profile__img{
     width: 80%;
     border-radius: var(--card-radius);
+    transition: width 0.2s;
 }
 
 
@@ -55,7 +56,7 @@
    border: 1px solid var(--card-background-color);
    height: 10rem;
    border-radius: var(--card-radius);
-   transition: all 0.5s linear;
+   transition: all 0.3s linear;
    
 }
 
@@ -137,12 +138,6 @@
 .custom-url__input, .email__input, .bio__input{width: 90%;}
 
 
-input{
-    width: 90%;
-}
-
-
-
 .facebook__wrapper{
     width: 100%;
     display: flex;
@@ -192,9 +187,6 @@ input{
     inherits: false;
   }
   
-  :root {
-    
-  }
   
   
   
@@ -216,22 +208,21 @@ input{
     cursor: pointer;
   }
   
-  .card:hover {
-    color: rgb(88 199 250 / 100%);
-    transition: color 1s;
+  .card:hover .profile__img{
+    width: 90%;
   }
   .card:hover:before, .card:hover:after {
     content: "";
-    width: 104%;
-    height: 102%;
+    width: 95%;
+    height: 95%;
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate)
       , var(--card-first-color), var(--card-second-color) , var(--card-third-color));
       position: absolute;
       z-index: -1;
-      top: -1%;
-      left: -2%;
+      top: 1%;
+      left: 2%;
       animation: none;
   }
   
@@ -308,3 +299,63 @@ input{
 }
 
   
+.img-choice__title{
+    color: var(--font-primary-color);
+    margin: 0 0 3rem 0;
+  }
+
+  .img-choice__title h3{
+    font-size: var(--font-l);
+  }
+
+  .account-info__title{
+     color: var(--font-primary-color);
+     margin: 1rem 0;
+  }
+
+  .display-name__title{
+      color: var(--font-primary-color);
+      margin: 0.5rem 0;
+  }
+
+  .custom-url__title{
+      color: var(--font-primary-color);
+      margin: 0.5rem 0;
+  }
+
+  .email__title{
+      color: var(--font-primary-color);
+      margin: 0.5rem 0;
+  }
+
+  .bio__title{
+      color: var(--font-primary-color);
+      margin: 0.5rem 0;
+  }
+
+
+  .facebook__title{
+      color: var(--font-primary-color);
+      margin: 0.5rem 0;
+  }
+
+  .twitter__title{
+    color: var(--font-primary-color);
+    margin: 0.5rem 0;
+}
+
+.discord__title{
+    color: var(--font-primary-color);
+    margin: 0.5rem 0;
+}
+
+.social__btn{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    box-shadow: inset 0 0 0 0.1rem var(--font-accent-color);
+}
+
+
+.social__btn{
+    background-color: var(--card-second-color);
+}

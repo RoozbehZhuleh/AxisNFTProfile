@@ -29,6 +29,7 @@ darkBtn.addEventListener("click", function() {
 
 firstBannerBox.addEventListener("mouseenter", function() {
     firstBannerBox.style.cursor = "pointer";
+    firstBannerBox.style.border = "2px solid var(--accent-color)";
     secondBannerBox.style.width = "35rem";
     thirdBannerBox.style.width = "35rem";
     fourthBannerBox.style.width = "35rem";
@@ -36,6 +37,7 @@ firstBannerBox.addEventListener("mouseenter", function() {
 
 firstBannerBox.addEventListener("mouseleave", function() {
     firstBannerBox.style.width= "100%";
+    firstBannerBox.style.border = "none";
     secondBannerBox.style.width = "100%";
     thirdBannerBox.style.width = "100%";
     fourthBannerBox.style.width = "100%";
@@ -43,6 +45,7 @@ firstBannerBox.addEventListener("mouseleave", function() {
 
 secondBannerBox.addEventListener("mouseenter", function() {
     secondBannerBox.style.cursor = "pointer";
+    secondBannerBox.style.border = "2px solid var(--accent-color)";
     firstBannerBox.style.width = "35rem";
     thirdBannerBox.style.width = "35rem";;
     fourthBannerBox.style.width = "35rem";
@@ -50,6 +53,7 @@ secondBannerBox.addEventListener("mouseenter", function() {
 
 secondBannerBox.addEventListener("mouseleave", function() {
     firstBannerBox.style.width= "100%";
+    secondBannerBox.style.border = "none";
     secondBannerBox.style.width = "100%";
     thirdBannerBox.style.width = "100%";
     fourthBannerBox.style.width = "100%";
@@ -57,6 +61,7 @@ secondBannerBox.addEventListener("mouseleave", function() {
 
 thirdBannerBox.addEventListener("mouseenter", function() {
     thirdBannerBox.style.cursor = "pointer";
+    thirdBannerBox.style.border = "2px solid var(--accent-color)";
     firstBannerBox.style.width = "35rem";
     secondBannerBox.style.width = "35rem";
     fourthBannerBox.style.width = "35rem";
@@ -64,6 +69,7 @@ thirdBannerBox.addEventListener("mouseenter", function() {
 
 thirdBannerBox.addEventListener("mouseleave", function() {
     firstBannerBox.style.width= "100%";
+    thirdBannerBox.style.border = "none";
     secondBannerBox.style.width = "100%";
     thirdBannerBox.style.width = "100%";
     fourthBannerBox.style.width = "100%";
@@ -72,6 +78,7 @@ thirdBannerBox.addEventListener("mouseleave", function() {
 
 fourthBannerBox.addEventListener("mouseenter", function() {
     fourthBannerBox.style.cursor = "pointer";
+    fourthBannerBox.style.border = "2px solid var(--accent-color)";
     firstBannerBox.style.width = "35rem";
     thirdBannerBox.style.width = "35rem";
     secondBannerBox.style.width = "35rem";
@@ -79,6 +86,7 @@ fourthBannerBox.addEventListener("mouseenter", function() {
 
 fourthBannerBox.addEventListener("mouseleave", function() {
     firstBannerBox.style.width= "100%";
+    fourthBannerBox.style.border = "none";
     secondBannerBox.style.width = "100%";
     thirdBannerBox.style.width = "100%";
     fourthBannerBox.style.width = "100%";

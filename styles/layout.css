@@ -89,6 +89,7 @@ header{
   background-repeat: no-repeat;
   height: 28rem;
   border-block-end: 0.1rem solid var(--secondary-background-color);
+  animation: bannerMovement 30s infinite;
 }
 
 button {
@@ -166,3 +167,16 @@ a {
 }
 
 
+
+input{
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  /* background: linear-gradient(
+    90deg,
+    var(--dark-color) 0%,
+    var(--primary-color) 75%
+  ); */
+  border: 1px solid var(--card-background-color);
+  background-color: transparent;
+}

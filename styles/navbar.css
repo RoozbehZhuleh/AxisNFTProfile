@@ -3,6 +3,14 @@
     z-index: 2;
     border-block-end: 0.1rem solid var(--secondary-background-color);
   }
+
+  header{
+    background-image: url(../assets/banners/bg.jpg);
+    background-repeat: no-repeat;
+    height: 28rem;
+    border-block-end: 0.1rem solid var(--secondary-background-color);
+    animation: bannerMovement 30s infinite;
+  }
   
   .navbar__logo img {
     max-height: 8rem;

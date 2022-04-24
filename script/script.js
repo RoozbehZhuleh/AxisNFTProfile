@@ -95,21 +95,21 @@ fourthBannerBox.addEventListener("mouseleave", function() {
 
 // choosing a new banner
 firstBannerBox.addEventListener("click", function() {
-    header.style.backgroundImage = "url(../assets/banners/banner1.jpg)";
+    header.style.backgroundImage = "url(./assets/banners/banner1.jpg)";
     header.style.backgroundPosition = "center";
 })
 
 secondBannerBox.addEventListener("click", function() {
-    header.style.backgroundImage = "url(../assets/banners/banner2.jpg)";
+    header.style.backgroundImage = "url(./assets/banners/banner2.jpg)";
     header.style.backgroundPosition = "center";
 })
 
 thirdBannerBox.addEventListener("click", function() {
-    header.style.backgroundImage = "url(../assets/banners/banner3.jpg)";
+    header.style.backgroundImage = "url(./assets/banners/banner3.jpg)";
     header.style.backgroundPosition = "center";
 })
 
 fourthBannerBox.addEventListener("click", function() {
-    header.style.backgroundImage = "url(../assets/banners/banner4.jpg)";
+    header.style.backgroundImage = "url(./assets/banners/banner4.jpg)";
     header.style.backgroundPosition = "center";
 })

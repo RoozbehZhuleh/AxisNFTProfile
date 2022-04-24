@@ -84,13 +84,7 @@ body {
   
 }
 
-header{
-  background-image: url(../assets/product\ page/bg.jpg);
-  background-repeat: no-repeat;
-  height: 28rem;
-  border-block-end: 0.1rem solid var(--secondary-background-color);
-  animation: bannerMovement 30s infinite;
-}
+
 
 button {
   cursor: pointer;

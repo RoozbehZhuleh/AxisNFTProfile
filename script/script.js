@@ -5,6 +5,9 @@ const secondBannerBox = document.querySelector(".second-img");
 const thirdBannerBox = document.querySelector(".third-img");
 const fourthBannerBox = document.querySelector(".fourth-img");
 const header = document.querySelector("header");
+const uploadNewPhoto = document.querySelector("#btn__upload-new-photo")
+const deletePhoto = document.querySelector("#btn__delete-photo")
+const card = document.querySelector(".card")
 
 
 darkBtn.addEventListener("click", function() {
@@ -113,3 +116,26 @@ fourthBannerBox.addEventListener("click", function() {
     header.style.backgroundImage = "url(./assets/banners/banner4.jpg)";
     header.style.backgroundPosition = "center";
 })
+
+
+// card buttons
+card.addEventListener("mouseenter", function() {
+    uploadNewPhoto.classList.add("btn__long");
+    uploadNewPhoto.classList.remove("btn__primary");
+})
+
+card.addEventListener("mouseleave", function() {
+    uploadNewPhoto.classList.add("btn__primary");
+    uploadNewPhoto.classList.remove("btn__long");
+})
+
+card.addEventListener("mouseenter", function() {
+    deletePhoto.classList.add("btn__long");
+    deletePhoto.classList.remove("btn__primary");
+})
+
+card.addEventListener("mouseleave", function() {
+    deletePhoto.classList.add("btn__primary");
+    deletePhoto.classList.remove("btn__long");
+})
+

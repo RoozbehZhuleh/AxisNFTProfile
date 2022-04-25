@@ -1,3 +1,9 @@
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
 *,
 *::after,
 *::before {
@@ -15,7 +21,7 @@
   --light-color: #f3f3f3;
   --font-primary-color: #f3f3f3;
   --font-accent-color: #929292;
-  --card-background-color: rgb(69, 62, 80);
+  --card-background-color: rgb(64, 55, 76);
   --secondary-background-color: rgb(49, 37, 71);
   --light-font-color: #f3f3f3;
   --login-primary-background-color: rgba(25, 20, 65%);
@@ -139,6 +145,7 @@ a {
   background-color: transparent;
   border: 1px solid var(--light-color);
   color: var(--font-primary-color);
+  width: 90%;
 }
 
 .btn__long:hover{

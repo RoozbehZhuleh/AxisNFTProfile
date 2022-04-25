@@ -180,4 +180,5 @@ input{
   ); */
   border: 1px solid var(--card-background-color);
   background-color: transparent;
+  color: var(--font-primary-color);
 }

@@ -211,6 +211,7 @@
   .card:hover .profile__img{
     width: 90%;
   }
+  
   .card:hover:before, .card:hover:after {
     content: "";
     width: 95%;

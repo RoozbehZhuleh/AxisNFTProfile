@@ -16,6 +16,7 @@ darkBtn.addEventListener("click", function() {
     darkBtn.style.transition = "all 300ms linear";
     if (localStorage.getItem('theme') === 'dark-mode'){
         darkBtn.src = "./assets/axies-images/01_header/moon-2.png";
+        darkBtn.style.width = "4.6rem";
     }
 
     else if(localStorage.getItem('theme') === 'light-mode'){

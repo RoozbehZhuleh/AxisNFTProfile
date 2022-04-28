@@ -334,6 +334,10 @@
       margin: 0.5rem 0;
   }
 
+  .bio__input input{
+      padding: 15rem 0 0 0;
+  }
+
 
   .facebook__title{
       color: var(--font-primary-color);

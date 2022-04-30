@@ -25,7 +25,7 @@
 .hero__item--right {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 70%;
     height: 90%
@@ -74,11 +74,11 @@
 
 .hero__item--right--bottom {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 99%;
     height:70%;
-    margin: 5% 0 0 0;
+    /* margin: 5% 0 0 0; */
 }
 
 .account-info__wrapper{
@@ -87,7 +87,8 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 50%;
-    height: 90%;
+    height: 99%;
+    gap: 1rem;
 }
 
 .social-media__wrapper{
@@ -96,7 +97,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 50%;
-    height: 90%;
+    height: 99%;
 }
 
 .display-name{
@@ -154,7 +155,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 1rem 0;
+    /* margin:0 0 1rem 0; */
 }
 
 .facebook__input{
@@ -168,7 +169,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 .twitter__input{
@@ -182,7 +183,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
 }
 
 .discord__input{
@@ -311,7 +312,7 @@
 
   .account-info__title{
      color: var(--font-primary-color);
-     margin: 1rem 0;
+     margin: 0 0 1rem 0;
   }
 
   .display-name__title{
@@ -366,5 +367,6 @@
 }
 
 .social__btn:hover{
-    background: linear-gradient(90deg, rgba(9,1,144,1) 0%, rgba(51,86,187,1) 45%, rgba(78,0,194,1) 69%);
+    background-color: var(--light-color);
+    color: var(--font-accent-color);
 }

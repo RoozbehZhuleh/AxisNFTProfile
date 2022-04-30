@@ -49,9 +49,14 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
   width: 100%;
   
+}
+
+
+.navbar__menu__item:hover{
+  color: var(--accent-color);
 }
 
 .navbar__menu__item p{
@@ -70,7 +75,7 @@ header{
 .navbar__menu__item i {
   margin-inline-start: 0.8rem;
   font-size: 1.5rem;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
 }
 
 .navbar__search {
@@ -346,3 +351,29 @@ header{
 }
 
   /* navbar submenu */
+
+
+  .profile__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    top: 5rem;
+  }
+
+  .profile__title{
+    color: var(--font-primary-color);
+    font-size: var(--font-l);
+  }
+
+  .profile__link--1, .profile__link--2, .profile__link--3{
+    color: var(--font-accent-color);
+    transition: all 0.2s linear;
+  }
+
+  .profile__link--1:hover, .profile__link--2:hover, .profile__link--3:hover{
+    color: var(--font-primary-color);
+  }

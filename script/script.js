@@ -119,6 +119,12 @@ fourthBannerBox.addEventListener("click", function() {
 })
 
 
+
+
+
+
+
+
 // card buttons
 card.addEventListener("mouseenter", function() {
     uploadNewPhoto.classList.add("btn__long");
